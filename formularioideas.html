@@ -13,42 +13,64 @@
     background-repeat: no-repeat;
     background-size: cover;
   }  
+  div{
+background-color: white;
+border-radius: 10px;
+margin-top:100px;
+  }
+
     form{
-        display:block;
-       padding: 3%;
+        padding: 15px;
+        display:flex;  
+      justify-content: center; 
         text-align: center;
-        
-        
-    }
-    form input{
-        margin: 4%;
+       
         
     }
+    
+      input{
+          text-align: center;
+          display: inline;
+        background-color: rgba(161, 0, 0, 0.719);
+          border-radius:4px;
+          
+      }
+        form{
+            display: flex;
+            
+        }
+    
     label{
         background-color: transparent;
         color: black;
         font-size: 35px;
     }
+    label{
+        margin:5px;
+    }
     input.boton{
-       font-size: 50px;
+        width: 150px;
+        height: 30px;
+        background-color:rgba(161, 0, 0, 0.795);
+        border-radius: 10px;
     }
 </style>
 <body">
        <form >
-
-<label >Correo<input type="email" ></label>
+<div>
+<label >Correo &nbsp;<input type="email" ></label>
 <br><br>
-<label >Edad<input type="number" ></label>
+<label >Edad &nbsp;<input type="number" ></label>
 <br><br>
-<label >Dirección<input type="text" ></label>
+<label >Dirección &nbsp;<input type="text" ></label>
 <br><br>
-<label >Fecha<input type="date" ></label>
+<label >Fecha &nbsp;<input type="date" ></label>
 <br><br>
-<label >Que videos querrías que subieramos<input type="text"></label>
+<label >Ideas para videos &nbsp;<input type="text"></label>
 <br><br>
 <input class="boton"type="submit" value="Enviar">
        </form>
-
+    </div>
               
             
            
